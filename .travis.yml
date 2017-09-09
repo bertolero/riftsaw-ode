@@ -11,7 +11,7 @@ before_install:
   - export PATH=$M2_HOME/bin:$PATH
 
 install:
-  - mvn -s ./settings-jboss.xml install
+  true
     
 script:
   - mvn -s ./settings-jboss.xml clean deploy
